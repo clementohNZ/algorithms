@@ -1,22 +1,31 @@
-function divisibleBy(n) {
+function isDivisibleBy(n) {
     return function () {
         return (this % n) === 0
     }
 }
 
-Number.prototype.divisibleBy3 = divisibleBy(3)
-Number.prototype.divisibleBy5 = divisibleBy(5)
+/**
+ * If you are not familiar with prototypal inheritence,
+ * you can modify these functions for better ease-of-understanding.
+ *
+ * I just try to make my code read as close to a well-formed
+ * English sentence as possible since we spend most of our time
+ * reading code as opposed to writing it (and this is one of the
+ * best ways to make that happen).
+ */
+Number.prototype.isDivisibleBy3 = isDivisibleBy(3)
+Number.prototype.isDivisibleBy5 = isDivisibleBy(5)
 
 function fizzBuzz(num) {
-    for (let i = 1; i <= num; i++) {
-        if (i.divisibleBy3() && i.divisibleBy5()) {
+    for (let currentNumber = 1; currentNumber <= num; currentNumber++) {
+        if (currentNumber.isDivisibleBy3() && currentNumber.isDivisibleBy5()) {
             console.log('fizz buzz')
-        } else if (i.divisibleBy3()) {
+        } else if (currentNumber.isDivisibleBy3()) {
             console.log('fizz')
-        } else if (i.divisibleBy5()) {
+        } else if (currentNumber.isDivisibleBy5()) {
             console.log('buzz')
         } else {
-            console.log(i)
+            console.log(currentNumber)
         }
     }
 }
