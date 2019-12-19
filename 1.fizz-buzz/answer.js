@@ -18,7 +18,8 @@ function fizzBuzz(num) {
         } else {
             console.log(i)
         }
-    }   
+    }
 }
 
-fizzBuzz(20)
+const result = fizzBuzz(20)
+console.log(result)
