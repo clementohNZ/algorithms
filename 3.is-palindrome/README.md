@@ -19,6 +19,6 @@ function isPalindrome(string) {}
 
 ## Further Challenge
 This exercise is fairly easy. If you want a much harder algorithmic exercise, try:
-1. A different way to solve the issue using pointers
+1. A different way to solve the issue
 2. Determine if a random set of characters has the potential to form a valid palindrome
 3. Determine how many potential palindromes can be generated from a random set of chracters
