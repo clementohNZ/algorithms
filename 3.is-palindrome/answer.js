@@ -1,4 +1,4 @@
-function isPalindrome(string) {
+function caesarCipher(string) {
     const sanitizedCharacters = removeCasePunctuationAndSpaces(string)
     return sanitizedCharacters.join('') === sanitizedCharacters.reverse().join('')
 }
@@ -14,5 +14,5 @@ function removeCasePunctuationAndSpaces(string) {
     return lettersArray
 }
 
-const result = isPalindrome("Madam I'm Adam")
+const result = caesarCipher("Madam I'm Adam")
 console.log(result)
