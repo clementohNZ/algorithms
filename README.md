@@ -12,7 +12,7 @@ to learn. This does not prescribe the only way of implementing it.
 
 ## How to use
 To play around with the algorithm, you can paste the code from the
-respective `answer.js` file into your favorite repl, modify the functions
+respective `answer-two.js` file into your favorite repl, modify the functions
 and its arguments. They are all designed to log out to the console at
 various steps that make sense.
 
