@@ -5,8 +5,8 @@ There are multiple ways of accomplishing this result, some are more performant t
 can make the time complexity of O.
 
 It can be done in:
-1. O (n^2) time complexity (array double loop); and
-2. O (n) time complexity (utilizes hash table)
+1. `O (n^2)` time complexity (array double loop); and
+2. `O (n)` time complexity (utilizes hash table)
 
 ## Exercise Details
 Given an array of numbers and a sum, return all two-number combinations that add up to the sum provided.
