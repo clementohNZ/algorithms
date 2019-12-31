@@ -11,8 +11,8 @@ It can be done in:
 ## Exercise Details
 Given an array of numbers and a sum, return all two-number combinations that add up to the sum provided.
 
-If the array [ 1, 6, 4, 5, 3, 3 ] was provided, and the sum was 7, the result should
-be: [ [ 6, 1 ], [ 3, 4 ], [ 3, 4 ] ].
+If the array `[ 1, 6, 4, 5, 3, 3 ]` was provided, and the sum was 7, the result should
+be: `[ [ 6, 1 ], [ 3, 4 ], [ 3, 4 ] ]`.
 
 Rules:
 1. Result should be array of arrays
