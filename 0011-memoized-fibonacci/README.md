@@ -1,4 +1,4 @@
-# Fibonacci
+# Memoized Fibonacci
 
 ## Purpose
 This algorithm will also be a good exercise to learn:
