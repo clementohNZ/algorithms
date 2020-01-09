@@ -3,6 +3,8 @@
 ## Purpose
 Understanding time complexity.
 
+Bubble sort has a time complexity of `O (n^2)` and merge sort has a time complexity of `O (n Log(n))`
+
 ## Exercise Details
 Return an array sorted using the merge sorting technique.
 
