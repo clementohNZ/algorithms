@@ -28,7 +28,11 @@ JavaScript one
 Use hash tables and single loops wherever possible. Always calculate your algorithm's
 time complexity.
 
-1. Constant time solutions will more likely than not involve a hash table.
-2. `O (n)` or greater solutions usually involve nested loops or more than one loop.
+1. Constant time `O (1)` solutions will more likely than not involve a hash table.
+2. Algorithms with a time complexity greater than `O (n)` usually involve nested loops or more than one loop.
 3. Determine the likely scale of your code and find a time complexity that works for you.
 They all work best at different ranges. You might want to test how it works with different n values.
+4. Figure out what is happening at each step of the algorithm and work through it slowly. It isn't a race. This is
+especially important for regression-based algorithms.
+6. When a regression-based algorithm hits the base case, the stack of function calls will start to unwind.
+5. Start with the simplest solution first before optimizing.
